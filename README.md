@@ -1,21 +1,39 @@
-# Customer-Churn-Prediction---Logistic-Regression-Project
-You have been hired as a data scientist at a telecommunications company. Your manager has provided you with a customer dataset and asked you to build a predictive model to identify customers who are likely to churn (leave the company).
-# Charef Wissam
-# Bouanzoul Lydia
-# Remdan Mohammed Amine 
-# We built two models.
+Customer-Churn-Prediction — Logistic Regression Project
 
-# In the first one, 
-we explored the dataset and trained and tested the data using three models:
+You have been hired as a data scientist at a telecommunications company. Your manager has provided you with a customer dataset and asked you to build a predictive model to identify customers who are likely to churn (leave the company).
+
+Group Members
+
+Charef Wissam
+
+Bouanzoul Lydia
+
+Remdan Mohammed Amine
+
+Project Overview
+Two Modeling Approaches
+1. Model Comparison
+
+In the first approach, we explored the dataset and trained and tested the data using three models:
+
 Random Forest
+
 Logistic Regression
+
 Support Vector Machine (SVM)
 
-We then looped through the models, applied Grid Search to each one, and displayed the results in order to compare their performance.
+We then looped through the models, applied Grid Search to each one, and displayed the results to compare their performance.
 
-We found that Logistic Regression achieved the best results and the highest accuracy, so we continued by fine-tuning the Logistic Regression model.
-All the remaining tasks were completed using this optimized model.
-You can find this version of the project in ML Model.ipynb.
+Outcome: Logistic Regression achieved the best results and highest accuracy. We then fine-tuned the Logistic Regression model and completed the remaining tasks using this optimized version.
 
-# As for the Logistic Regression–only model,
-where we study the dataset using only Logistic Regression, it is available in only logistic regression model.ipynb.
+📁 You can find this version in:
+
+ML Model.ipynb
+
+2. Logistic Regression–Only Model
+
+In this approach, we focused exclusively on Logistic Regression, studying the dataset and building the model without comparing it to other algorithms.
+
+📁 You can find this version in:
+
+only logistic regression model.ipynb
